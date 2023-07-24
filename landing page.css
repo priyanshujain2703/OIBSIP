@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: coral;
+    background: url('jch1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#center{
+    text-align: center;
+    margin-top: 10px;
+    /* background-color: saddlebrown; */
+}
+#a1{
+    height: 11cm;
+    width: 13cm;
+    margin-left: 1.5cm;
+    margin-top: 0cm;
+    opacity: 0.8;
+    border-color: transparent;
+    background: transparent;
+    border-radius: 100px;
+}
+h5.tet{
+    text-align: center;
+    margin-top:80px;
+    margin-left: 60px;
+    font-size: xx-large;
+    font-weight: 600;
+    color: darkred;
+    position: absolute;
+}
+h3.small{
+    line-height: 50px;
+    margin-bottom : 0px;
+    margin-top: 10px;
+}
+h1.small{
+    margin: 0px;
+    line-height: 50px;
+}
+.mid{
+    display: block;
+    width: 38%;
+    margin: auto;
+    padding: 50px auto;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: brown;
+    text-decoration: none;
+    padding: 34px 24px;
+    
+}
+.navbar li a:hover, .navbar li a active, h5.tet:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+#parentdiv1{
+    display: inline-block;
+    margin-left: 7cm;
+}
+#parentdiv2{
+    display: inline-block;
+}
+#div1{
+    height: 200px;
+    width: 200px;
+    /* background-color: aqua; */
+    border: 3px solid transparent;
+    margin-bottom: 8px;
+    border-radius: 50px;
+    background-image: url('kid.jpg');
+    background-size: contain;
+    opacity: 0.8;
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    /* background-color: royalblue; */
+    border: 3px solid transparent;
+    border-radius: 50px;
+    background-image: url('men.jpeg');
+    background-size: contain;
+    opacity: 0.7;
+}
+#parentdiv3{
+    display: inline-block;
+    margin-left: 2cm;
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    /* background-color: burlywood; */
+    border: 3px solid transparent;
+    margin-bottom: 8px;
+    border-radius: 50px;
+    background-image: url('women.webp');
+    background-size: contain;
+    opacity: 0.8;
+}
+#div4{
+    height: 200px;
+    width: 200px;
+    /* background-color: blanchedalmond; */
+    border: 3px solid transparent;
+    border-radius: 50px;
+    background-image: url('cosmetic.jpg');
+    background-size: contain;
+    opacity: 0.7;
+}
+.end{
+    /* height: 30vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.a2{
+    height: 100px;
+    width: 50px;
+    text-align: center;
+}
+a.a2 i{
+    transition: all 0.3s linear;
+}
+a.a2:hover i{
+    transform: scale(1.4);
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-linkedin{
+    color: #0097e6;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.detail{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 900;
+    color: blue;
+}
